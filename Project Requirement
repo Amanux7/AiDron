@@ -1,0 +1,33 @@
+# Project Requirements Document
+
+## 1. Project Overview
+- **Title:** Aidron
+- **Description:** An integrated development and design environment combining the best features of VSCode and design tools like Cursor.
+- **Target Audience:** Developers and Designers.
+
+## 2. Objectives
+- Create a versatile code editor with advanced functionalities.
+- Provide designers with intuitive tools for live design and preview.
+- Bridge the gap between visual design and code.
+
+## 3. Functional Requirements
+- **Code Editing:** Syntax highlighting, code auto-completion, file management.
+- **Design Workspace:** Drag-and-drop UI elements, live CSS/HTML preview.
+- **Navigation & Tools:** File explorer, integrated terminal, command palette.
+- **Plugin System:** Basic API for third-party extensions.
+
+## 4. Non-Functional Requirements
+- Cross-platform support (Windows, macOS, Linux).
+- Efficient performance with low memory footprint.
+- Secure sandboxing for any third-party plugins/extensions.
+
+## 5. Technology Stack Considerations
+- **Desktop Shell:** Electron or Tauri.
+- **Frontend Framework:** React (or alternatives like Vue/Angular).
+- **Editor Engine:** Monaco Editor.
+- **State Management:** Redux (or similar) if necessary.
+  
+## 6. Milestones & Timeline (Tentative)
+- **MVP Completion:** [Set a target date]
+- **Beta Testing:** [Set a target date]
+- **Full Release:** [Set a target date]
